@@ -1,5 +1,5 @@
-
 import timestamp.Timestamp;
+import timestamp.ThreadPool;
 
 class Test {
         
@@ -8,6 +8,8 @@ class Test {
         trace('timestamp ' + Timestamp.now());
         trace('timestamp ' + Timestamp.now());
         trace('timestamp ' + Timestamp.now());
+        
+        var pool:ThreadPool = ThreadPool.create(5);
 
     }
 

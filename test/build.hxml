@@ -1,6 +1,9 @@
 -main Test.hx
 -cpp cpp/
 -cp ../
+-D HXCPP_CPP11
+
+
 # pick a target
 
 # -D mac

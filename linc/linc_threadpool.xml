@@ -1,0 +1,18 @@
+<xml>
+
+    <files id='haxe'>
+
+        <compilerflag value='-I${LINC_THREADPOOL_PATH}/linc/'/>
+        <compilerflag value='-std=c++11'/>
+        <compilerflag value='-stdlib=libc++'/>
+        <file name="${LINC_THREADPOOL_PATH}/linc/linc_threadpool.hpp" unless="windows"/>
+
+    </files>
+
+    <target id="haxe">
+
+        
+
+    </target>
+
+</xml>
